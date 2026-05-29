@@ -12,7 +12,13 @@
 
 Instance Audio Control is a lightweight, zero-latency utility for Windows that gives you complete control over your active application audio sessions. Featuring a sleek, professional UI, fully customizable individual application keybinds, and a non-intrusive interactive HUD overlay.
 
-![Instance Audio Control Preview](image.png)
+## 📸 Previews
+
+### Main Dashboard
+![Instance Audio Control Dashboard](demo/home.png)
+
+### Compact Volume HUD Overlay
+<img src="demo/hud.png" alt="IAC Volume HUD" width="80" />
 
 ## ⚡ Key Features
 
