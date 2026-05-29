@@ -22,13 +22,13 @@ Instance Audio Control is a lightweight, zero-latency utility for Windows that g
 
 ## ⚡ Key Features
 
-- **Collapsible Application Grids**: Segment your active audio streams into **Favorite Applications**, **All Streams**, and **Hidden Sessions** with dynamic count badges and chevron indicators.
-- **Global Controller & Keycap Hotkeys**: Pin any application to bind main keyboard shortcuts, or configure individual app hotkeys (Volume Up, Volume Down, Mute) using flat mechanical-style keycap interfaces.
-- **Dynamic overlay HUD**: A non-intrusive click-through HUD that displays volume changes in real-time. Supports customizable positions (Top-Left, Top-Center, Top-Right, Bottom-Left, Bottom-Center, Bottom-Right) and a master toggle switch.
-- **Custom step increments**: Adjust your volume step delta dynamically via a control slider from 1% to 20% per keypress.
-- **Direct slot unbinding**: Clear hotkeys instantly with a single click using tiny "X" controls directly on card slots.
-- **Tray-Only execution**: Minimize to your Windows system tray, showing context options for quick actions (Mute Pinned App, Toggle HUD) and quick left-click restoration.
-- **High-DPI support**: Automatic extraction of high-resolution application icons for a clean, sharp look.
+- **Audio Session Segmentation**: Group active audio streams into customizable sections (Favorites, General, and Hidden) with persistent collapsible grids and live stream count indicators.
+- **Global & Per-Application Hotkeys**: Pin any process to use global shortcuts, or assign dedicated keybinds (Volume Up, Volume Down, Mute) for specific applications.
+- **Interactive HUD Overlay**: A borderless, click-through HUD overlay that responds dynamically to volume changes. Supports 6 coordinate presets and toggling from both the dashboard and system tray.
+- **Granular Step Resolution**: Configure volume increments from 1% to 20% per shortcut interaction.
+- **Quick Keybind Clears**: Direct, inline unbind options inside the app cards for quick mapping modifications.
+- **System Tray Integration**: Background-friendly footprint that minimizes to the system tray. Context menu shortcuts allow quick muting of pinned apps and toggling HUD visibility.
+- **High-Resolution Icon Extraction**: Utilizes Windows Shell API to dynamically resolve and draw high-definition application icons on high-DPI monitors.
 
 ## 🛠️ Tech Stack
 
