@@ -13,6 +13,9 @@ try {
   console.error("Failed to show window:", e);
 }
 
+// Disable default browser right-click context menu globally
+document.addEventListener("contextmenu", (e) => e.preventDefault());
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <App />
